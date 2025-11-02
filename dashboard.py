@@ -1,3 +1,6 @@
+from flask import Flask
+app = Flask(__name__)
+
 import streamlit as st
 import pandas as pd
 import requests
@@ -50,6 +53,3 @@ while True:
 
     time.sleep(interval)
     st.experimental_rerun()
-
-from flask import Flask
-app = Flask(__name__)
