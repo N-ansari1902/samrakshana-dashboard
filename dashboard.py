@@ -50,3 +50,6 @@ while True:
 
     time.sleep(interval)
     st.experimental_rerun()
+
+from flask import Flask
+app = Flask(__name__)
